@@ -3,6 +3,7 @@
   src: url("../fonts/futura/FuturaBookC.woff") format("woff"), url("../fonts/futura/FuturaBookC.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: wrap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url("../fonts/futura/FuturaDemiC.woff") format("woff"), url("../fonts/futura/FuturaDemiC.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: wrap;
 }
 
 .button {
@@ -368,12 +370,18 @@ template {
 }
 
 .container {
+  width: 85%;
   max-width: 1256px;
   margin: auto;
 }
 
 .header {
+  position: fixed;
   background-color: #131313;
+  padding: 24px 0px;
+  left: 0;
+  top: 0;
+  z-index: 99;
 }
 
 .menu {
@@ -414,8 +422,34 @@ template {
   position: relative;
   background: #131313 url("../img/hero-bg.jpg") no-repeat center/cover;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding-top: 100px;
   color: #ffffff;
+}
+
+.hero__content {
+  max-width: 670px;
+}
+
+.hero__text {
+  font-size: 22px;
+  max-width: 500px;
+}
+
+.hero__button {
+  margin-right: 20px;
 }
 
 .hero__instagram {
@@ -424,6 +458,27 @@ template {
   top: 0;
   max-width: 80px;
   height: 100%;
+}
+
+.hero__scroll-down {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0;
+  bottom: 0;
+  min-width: 247px;
+  min-height: 97px;
+  background-color: #131313;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .instagram {
@@ -449,6 +504,24 @@ template {
 
 .title {
   margin: 0;
+  font-family: 'Yeseva One', cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.title--primary {
+  color: #E38873;
+}
+
+.title--outline {
+  border: 1px solid #ffffff;
+  background-color: transperent;
+  color: #ffffff;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
