@@ -8,11 +8,17 @@
     &--primary
         background-color: $primary
         color: $light
-        box-shadow: 0px 5px 15px rgba ($primary 0.2)
+        box-shadow: 0px 5px 15px rgba($primary, 0.2)
         transition: box-shadow 0.3s
         &:hover
             box-shadow: none
+            color: $dark
+            background-color: $light
     &--outline 
         border: 1px solid $light
         color: $light
         background-color: transparent
+        &:hover
+            box-shadow: none
+            color: $light
+            background-color: $dark
