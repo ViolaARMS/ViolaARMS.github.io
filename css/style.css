@@ -26,6 +26,7 @@
 }
 
 .button--primary {
+  padding: 19px 26px;
   background-color: #E3B873;
   color: #ffffff;
   -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -44,6 +45,7 @@
 }
 
 .button--outline {
+  padding: 19px 30px;
   border: 1px solid #ffffff;
   color: #ffffff;
   background-color: transparent;
@@ -451,6 +453,10 @@ body .section-title__image::before, body .section-title__image::after {
   z-index: 99;
 }
 
+.header__container {
+  max-width: 1500px;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -530,6 +536,7 @@ body .section-title__image::before, body .section-title__image::after {
 .hero__text {
   font-size: 22px;
   max-width: 500px;
+  margin-bottom: 40px;
 }
 
 .hero__button {
