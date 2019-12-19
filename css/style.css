@@ -467,6 +467,7 @@ img {
   margin-bottom: 1.64rem;
   font-size: 1.07rem;
   line-height: 135.84%;
+  max-width: 48rem;
 }
 
 .header {
@@ -876,9 +877,6 @@ img {
   }
   .title {
     font-size: 1.64rem;
-  }
-  .hero {
-    max-width: 22.86rem;
   }
   .hero__scroll-down {
     display: none;
