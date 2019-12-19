@@ -1,12 +1,18 @@
 @media screen and ( max-width: 1200px )
     html
-        font-size: 10px
+        font-size: 12px
     .nav
         &__item
             margin-right: 1rem
     .hero
         &__text 
             margin-bottom: 2.28rem
+@media screen and ( min-width: 1200px  )
+    .design
+        background-color: $light
+    .section
+        &-title
+            color: $dark
 @media screen and ( max-width: 992px )
     &__instagram
         display: none
@@ -22,6 +28,10 @@
         &__text 
             margin-bottom: 2.28rem
 @media screen and ( max-width: 570px )
+    .section
+        &-title
+            &__description
+                max-width: 21.86rem
     .contacts
         &__phone
             margin-right: 0
@@ -35,13 +45,13 @@
         &__scroll-down
             display: none
         &__content
-        // max-width: 22.86rem 
+        max-width: 22.86rem 
         &__text
             font-size: 1.29rem   
             margin-bottom: 2.28rem
         &__button
             display: block
-            min-width: 22.86rem
+            max-width: 22.86rem
             margin-bottom: 1.85rem 
 @media screen and ( max-width: 520px )
     .contacts
