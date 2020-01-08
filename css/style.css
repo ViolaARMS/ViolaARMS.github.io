@@ -550,7 +550,6 @@ img {
 }
 
 .section-title__text {
-  color: #fff;
   font-size: 1.28rem;
   line-height: 2.07rem;
   max-width: 31.57rem;
@@ -1122,6 +1121,30 @@ img {
   }
   .hero__text {
     margin-bottom: 2.28rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .swiper-slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .swiper-slider-image {
+    margin-top: 0;
+  }
+  .mobile-order-top {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .col-50 {
+    width: 100%;
+  }
+  .swiper-slide__text {
+    margin-bottom: unset;
   }
 }
 

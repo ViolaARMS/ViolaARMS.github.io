@@ -27,6 +27,21 @@
             margin-left: 0
         &__text 
             margin-bottom: 2.28rem
+
+@media screen and ( max-width: 760px )
+    .swiper
+        &-slider
+            display: flex
+            flex-wrap: wrap
+            &-image
+                margin-top: 0
+    .mobile-order-top
+        order: -1
+    .col-50
+        width: 100%
+    .swiper-slide__text
+        margin-bottom: unset
+
 @media screen and ( max-width: 570px )
     .section
         &-title
