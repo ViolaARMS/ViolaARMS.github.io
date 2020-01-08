@@ -522,13 +522,6 @@ img {
   text-align: left;
 }
 
-.section-title__text {
-  font-size: 1.28rem;
-  color: #ffffff;
-  line-height: 2.07rem;
-  max-width: 31.57rem;
-}
-
 .section-title__heading {
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
@@ -554,6 +547,13 @@ img {
   height: 1px;
   background-color: #E3B873;
   margin-left: 2rem;
+}
+
+.section-title__text {
+  color: #fff;
+  font-size: 1.28rem;
+  line-height: 2.07rem;
+  max-width: 31.57rem;
 }
 
 .section-title__image {
@@ -1023,6 +1023,10 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.swiper-slider-image {
+  margin-top: -13rem;
 }
 
 .swiper-slide__text {
