@@ -41,7 +41,13 @@
         width: 100%
     .swiper-slide__text
         margin-bottom: unset
-
+    .section-title
+        &__word
+            text-align: center
+            display: block
+            &::after
+                content: ""
+                margin-left: unset
 @media screen and ( max-width: 570px )
     .section
         &-title
@@ -68,6 +74,8 @@
             display: block
             max-width: 22.86rem
             margin-bottom: 1.85rem 
+    .section-title
+        text-align: center
 @media screen and ( max-width: 520px )
     .contacts
         &__phone
