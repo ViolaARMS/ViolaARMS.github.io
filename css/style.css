@@ -787,6 +787,10 @@ img {
   color: #E3B873;
 }
 
+.section-title__text {
+  color: #ffffff;
+}
+
 .types__section-title {
   margin-bottom: 2rem;
 }
