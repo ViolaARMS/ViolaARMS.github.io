@@ -1038,6 +1038,42 @@ img {
   padding-top: 3rem;
 }
 
+.footer__map {
+  max-width: 925px;
+  margin: auto;
+  margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__text {
+  text-align: center;
+  margin: auto;
+  max-width: 38.928rem;
+  font-size: 1.428rem;
+  text-transform: uppercase;
+  color: #E3B873;
+  font-family: Yeseva One, cursive;
+}
+
+.footer__icon {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.icon-1 {
+  margin-right: 0.5rem;
+}
+
+.icon-2 {
+  margin-left: 0.5rem;
+}
+
 .modal {
   opacity: 0;
   visibility: hidden;
@@ -1457,6 +1493,15 @@ img {
     -webkit-box-pack: unset;
         -ms-flex-pack: unset;
             justify-content: unset;
+  }
+  .footer {
+    background: #131313;
+  }
+  .footer__text {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 2rem;
   }
 }
 
