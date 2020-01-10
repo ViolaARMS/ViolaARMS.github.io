@@ -48,6 +48,27 @@
             &::after
                 content: ""
                 margin-left: unset
+    .control
+        background-color: $dark
+        &__form
+            display: flex
+            flex-flow: column wrap
+        &__input-group
+            margin-bottom: 70px
+        &__button
+            width: 100%
+            margin-top: 10px
+            margin-bottom: -80px
+            order: 3
+        &__policy-label
+            justify-content: unset
+            color: $light
+            margin-top: -70px
+        &__label
+            color: $light
+            
+        &__text
+            color: $light
 @media screen and ( max-width: 570px )
     .section
         &-title
