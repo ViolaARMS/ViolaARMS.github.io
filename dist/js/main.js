@@ -1,3 +1,17 @@
+// document.addEventListener("DOMContentLoaded", function(event) {
+//     const modal = document.querySelector('.modal');
+//     const modalBtn = document.querySelectorAll('[data-toggle=modal]');
+//     const closeBtn = document.querySelector('.modal__close');
+//     const switchModal = () => {
+//         modal.classList.toggle('modal--visible');
+//     }
+   
+//     modalBtn.forEach(element => {
+//         element.addEventListener('click', switchModal);
+//     });
+//     closeBtn.addEventListener('click', switchModal);
+// });
+
 
 $(document).ready(function () {
     var modal = $('.modal'),
@@ -134,5 +148,8 @@ email: "Введите в формате: name@domain.com"
 }
 
 });
+        // console.log(modal);
+        // console.log(modalBtn);
+        // console.log(closeBtn);
       $('[type=tel]').mask('+7(000) 00-00-000', {placeholder:"+7 (___) __-__-___"}); 
 });
