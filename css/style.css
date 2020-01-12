@@ -3,7 +3,7 @@
   src: url("../fonts/futura/FuturaBookC.woff") format("woff"), url("../fonts/futura/FuturaBookC.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: wrap;
+  font-display: swap;
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   src: url("../fonts/futura/FuturaDemiC.woff") format("woff"), url("../fonts/futura/FuturaDemiC.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: wrap;
+  font-display: swap;
 }
 
 .button {
@@ -545,6 +545,7 @@ img {
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
   line-height: 138%;
+  font-weight: normal;
 }
 
 .section-title__heading--primary {
