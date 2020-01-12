@@ -63,10 +63,11 @@ function fonts(done){
     .pipe(dest('dist/fonts'));
     done();
 }
-function imagemin(done){
+function imagemin(done) {
     src('img/**/**')
     .pipe(tinypng({ key:'MQVv5P850LW8wHYkJGFbhbx2qX4N0rqG',}))
     .pipe(dest('dist/img/'))
+    .pipe(dest('dist/img/types/'))
     src('img/**/*.svg')
     .pipe(dest('dist/img/'))
     done();
